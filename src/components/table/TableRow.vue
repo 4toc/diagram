@@ -22,5 +22,6 @@
   .table-row {
     display: flex;
     flex-direction: row;
+    height: 30px;
   }
 </style>

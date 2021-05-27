@@ -22,14 +22,14 @@
       let matrix: Array<TableRowModel> = []
       for (let i = 0; i < 9; i++) {
         let row: TableRowModel = {
-          colIndex: i,
+          rowIndex: i,
           data: [],
         }
         for (let j = 0; j < 9; j++) {
           let cell: TableCellModel = {
-            rowIndex: j,
-            colIndex: i,
-            value: 0,
+            rowIndex: i,
+            colIndex: j,
+            value: undefined,
           }
           row.data.push(cell)
         }

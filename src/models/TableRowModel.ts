@@ -1,6 +1,6 @@
 import TableCellModel from './TableCellModel'
 
 export default interface TableRowModel {
-  colIndex: number
+  rowIndex: number
   data: Array<TableCellModel>
 }
